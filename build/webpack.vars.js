@@ -120,48 +120,6 @@ const devServer = {
       secure: false,
       changeOrigin: true,
       pathRewrite: { '^/api': '' }
-    },
-    '/mockAPI/**': {
-      target: 'http://localhost:3100',
-      secure: false,
-      changeOrigin: true,
-      pathRewrite: { '^/mockAPI': '' }
-    },
-    '/mbwuuli/**': {
-      target: apiurl + '/mbwuuli',
-      secure: false,
-      pathRewrite: { '^/mbwuuli': '' },
-      changeOrigin: true
-    },
-    '/mbkaar/**': {
-      target: apiurl + '/mbkaar',
-      secure: false,
-      pathRewrite: { '^/mbkaar': '' },
-      changeOrigin: true
-    },
-    '/mbriihi/**': {
-      target: apiurl + '/mbriihi',
-      secure: false,
-      pathRewrite: { '^/mbriihi': '' },
-      changeOrigin: true
-    },
-    '/mbtasco/**': {
-      target: apiurl + '/mbtasco',
-      secure: false,
-      pathRewrite: { '^/mbtasco': '' },
-      changeOrigin: true
-    },
-    '/mbwuuli-admin/**': {
-      target: apiurl + '/mbwuuli-admin',
-      secure: false,
-      pathRewrite: { '^/mbwuuli-admin': '' },
-      changeOrigin: true
-    },
-    '/mbtreasury/**': {
-      target: apiurl + '/mbtreasury',
-      secure: false,
-      pathRewrite: { '^/mbtreasury': '' },
-      changeOrigin: true
     }
   }
 }
