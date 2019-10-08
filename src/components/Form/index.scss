@@ -1,0 +1,68 @@
+.button-container {
+  border-top: 1px solid $sliver;
+  padding-top: 16px;
+}
+
+.button-wrapper {
+  margin: 0 5px;
+}
+
+.field-inline {
+  position: relative;
+
+  :global {
+    .ant-form-item {
+      display: flex;
+      margin-bottom: 16px;
+    }
+
+    .ant-form-item-label {
+      width: 110px;
+    }
+    .ant-form-item-control-wrapper {
+      flex: 1;
+    }
+    .ant-form-explain {
+      position: absolute;
+    }
+
+    .ant-checkbox-group-item {
+      margin-top: 4px;
+      margin-bottom: 4px;
+    }
+  }
+}
+
+@media (max-width: $screenPhone) {
+  .field-inline {
+    padding: 20px;
+  }
+}
+
+.underline {
+  position: relative;
+
+  :global {
+    .ant-form-item-label {
+      border-bottom: 1px solid $grey;
+    }
+    .ant-form-item-control-wrapper {
+      border-bottom: 1px solid $sliver;
+      padding-left: 8px;
+    }
+  }
+}
+
+/* 时间范围选择 */
+.time-range {
+  display: flex;
+  justify-content: space-between;
+
+  & .time-range-picker {
+    width: 130px;
+  }
+  & .divider {
+    width: 10px;
+    text-align: center;
+  }
+}

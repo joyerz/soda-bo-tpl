@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["./src/*"],
+      "com/*": ["./src/components/*"],
+      "utils/*": ["./src/utils/*"],
+      "assets/*": ["./src/assets/*"],
+      "conf/*": ["./src/conf/*"],
+      "pages/*": ["./src/pages"]
+    }
+  }
+}

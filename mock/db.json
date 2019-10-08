@@ -1,0 +1,213 @@
+{
+  "place": [
+    {
+      "name": "场地",
+      "user": "成员",
+      "room": "房间",
+      "add": "地址",
+      "people": "负责人",
+      "phone": "联系方式"
+    }
+  ],
+  "company": [
+    {
+      "id": "1239222",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "PENDING"
+    },
+    {
+      "id": "1239223",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239224",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239225",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239226",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239227",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239228",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239229",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239230",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239231",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239232",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239233",
+      "name": "深圳市朗仁科技有限公司",
+      "area": "广东省深圳市南山区",
+      "level": "关键客户",
+      "contact": {
+        "name": "李小红",
+        "phone": "18888888888"
+      },
+      "created_at": 1565594989851,
+      "status": "ACTIVE"
+    }
+  ],
+  "lockInformation": [
+    {
+      "id": "1239233",
+      "lock_id": "2001922312",
+      "company": "瑞幸咖啡",
+      "place": "场所",
+      "address": "高新区节能大厦4楼",
+      "room": "401",
+      "lock_status": "LOCK",
+      "lock_healthy_status": "NORMAL"
+    },
+    {
+      "id": "1239234",
+      "lock_id": "2001922313",
+      "company": "瑞幸咖啡",
+      "place": "场所名称",
+      "address": "高新区福年广场3楼",
+      "room": "302",
+      "lock_status": "LOCK",
+      "lock_healthy_status": "LOW_POWER"
+    },
+    {
+      "id": "1239235",
+      "lock_id": "2001922314",
+      "company": "瑞幸咖啡",
+      "place": "场所",
+      "address": "高新区万科T1",
+      "room": "101",
+      "lock_status": "UNLOCK",
+      "lock_healthy_status": "NORMAL"
+    }
+  ],
+  "account": [
+    {
+      "id": "1239231",
+      "name": "高飞",
+      "phone": "13388732232",
+      "username": "fei.gao",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "1239232",
+      "name": "张三",
+      "phone": "13388732232",
+      "username": "san.zhang",
+      "status": "FORBIDDEN"
+    },
+    {
+      "id": "1239233",
+      "name": "李四",
+      "phone": "13388732232",
+      "username": "si.li",
+      "status": "ACTIVE"
+    }
+  ]
+}

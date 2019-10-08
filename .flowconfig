@@ -1,0 +1,29 @@
+[ignore]
+<PROJECT_ROOT>/dist/.*
+<PROJECT_ROOT>/stats.json
+<PROJECT_ROOT>/.storybook
+
+[include]
+./src
+
+[libs]
+
+[lints]
+
+[options]
+esproposal.optional_chaining=enable
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.json
+module.file_ext=.css
+module.file_ext=.scss
+esproposal.decorators=ignore
+module.name_mapper='^src' ->'<PROJECT_ROOT>/src'
+module.name_mapper='^com' ->'<PROJECT_ROOT>/src/components'
+module.name_mapper='^utils' ->'<PROJECT_ROOT>/src/utils'
+module.name_mapper='^assets' ->'<PROJECT_ROOT>/src/assets'
+module.name_mapper='^conf' ->'<PROJECT_ROOT>/src/conf'
+module.name_mapper='^pages' ->'<PROJECT_ROOT>/src/pages'
+
+
+[strict]

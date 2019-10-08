@@ -1,0 +1,55 @@
+.container {
+  float: left;
+  height: 48px;
+  margin: 8px 16px;
+  overflow: hidden;
+}
+
+.avatar {
+  float: left;
+  margin: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background: $sliver;
+  line-height: 48px;
+  overflow: hidden;
+
+  & img {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.user {
+  margin: 2px 0 0 60px;
+  color: $grey;
+  line-height: 22px;
+  white-space: nowrap;
+
+  & .name {
+    font-weight: bold;
+    color: $dark;
+  }
+}
+
+@media (max-width: $screenPhone) {
+  .avatar {
+    width: 35px;
+    height: 35px;
+
+    & img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  .user {
+    margin: 2px 0 0 45px;
+    line-height: 17px;
+  }
+
+  .container {
+    height: auto;
+  }
+}
