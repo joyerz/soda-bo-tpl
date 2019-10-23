@@ -153,5 +153,10 @@
       "^conf/(.*)": "<rootDir>/src/conf/$1",
       "^pages/(.*)": "<rootDir>/src/pages/$1"
     }
-  }
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 2%",
+    "ie >= 9"
+  ]
 }

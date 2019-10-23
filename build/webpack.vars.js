@@ -81,6 +81,9 @@ const rules = [
               localIdentName: '[name]__[local]___[hash:base64:10]'
             }
           },
+          {
+            loader: 'postcss-loader'
+          },
           'sass-loader',
           {
             loader: 'sass-resources-loader',

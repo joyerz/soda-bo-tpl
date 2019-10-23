@@ -1,8 +1,6 @@
 // @flow
-import '@babel/polyfill'
-import 'core-js/es/map'
-import 'core-js/es/set'
-import 'raf/polyfill'
+import 'core-js'
+import 'regenerator-runtime/runtime'
 
 import 'utils/browserDetect'
 import './assets/scss/global.scss'
